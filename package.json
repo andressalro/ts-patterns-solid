@@ -1,0 +1,23 @@
+{
+  "name": "ts-patterns-solid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andressalro/ts-patterns-solid.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andressalro/ts-patterns-solid/issues"
+  },
+  "homepage": "https://github.com/andressalro/ts-patterns-solid#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.9"
+  }
+}
