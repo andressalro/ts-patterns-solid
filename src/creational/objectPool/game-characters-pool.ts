@@ -34,10 +34,10 @@ export class GameCharactersPool {
     }
 
     public getWarrior(): GameCharacter {
-        return this.getPoolItem(this._warriorsPool, this.loadWarriorsPool());
+        return this.getPoolItem(this._warriorsPool, this.loadWarriorsPool.bind(this));
     }
 
     public getMages(): GameCharacter {
-        return this.getPoolItem(this._magesPool, this.loadMagesPool());
+        return this.getPoolItem(this._magesPool, this.loadMagesPool.bind(this));
     }
 }
