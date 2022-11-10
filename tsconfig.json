@@ -28,7 +28,7 @@
      "noFallthroughCasesInSwitch": true,    /* Reporta en controles switch cuando un case sin break genera erroes. */
      "experimentalDecorators": true,
      "emitDecoratorMetadata": true,
-     "types": ["reflec-metadata", "node"]
+     "types": ["reflect-metadata", "node"]
   },
   "include": [
       "src/**/*"

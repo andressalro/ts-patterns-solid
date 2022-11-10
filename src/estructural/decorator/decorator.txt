@@ -1,0 +1,4 @@
+Patron decorador nos permite añadir dinámicamente responsabilidades a un objeto en tiempo de ejecución
+Computer: Clase base 
+ComputerComponent: Modela una característica que puede ser agregado a su clase basada en computadora (contiene referencia a computer)
+ConcreteComputer: Clase que representa el tipo de computador, portatil o servidor (no contiene referencia a computer)
