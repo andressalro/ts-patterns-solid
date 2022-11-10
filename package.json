@@ -19,5 +19,9 @@
   "homepage": "https://github.com/andressalro/ts-patterns-solid#readme",
   "devDependencies": {
     "@types/node": "^18.11.9"
+  },
+  "dependencies": {
+    "inversify": "^6.0.1",
+    "reflect-metadata": "^0.1.13"
   }
 }

@@ -1,0 +1,6 @@
+Tipos de decoradores:
+
+Clase
+Metodo
+Propiedad
+Accesor

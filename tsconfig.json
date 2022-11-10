@@ -3,7 +3,7 @@
      /* Opciones básicas */
      "target": "es5",                          /* Indica la versión de ECMAScript: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' o 'ESNEXT'. */
      "module": "commonjs",                  /* Indica el tipo de formato de módulos: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
-     "lib":["es2015"],
+     "lib":["es2015", "es6"],
      // "allowJs": true,                       /* Permite que archivos .js sean compilados. */
      // "checkJs": true,                       /* Reporta errores en archivos .js. */
      // "jsx": "preserve",                     /* Indica el formato de código JSX: 'preserve', 'react-native', or 'react'. */
@@ -22,10 +22,13 @@
      "alwaysStrict": true,                     /* Emite "use strict" por cada archivo fuente. */
  
      /* Verificaciones adicionales */
-     "noUnusedLocals": true,                /* Reporta errores en variables no utilizadas. */
-     "noUnusedParameters": true,            /* Reporta errores en parámetros no utilizados. */
+     "noUnusedLocals": false,                /* Reporta errores en variables no utilizadas. */
+     "noUnusedParameters": false,            /* Reporta errores en parámetros no utilizados. */
      "noImplicitReturns": true,             /* Reporta erroes debido a alguna dirección del código que no devuelve un valor. */
      "noFallthroughCasesInSwitch": true,    /* Reporta en controles switch cuando un case sin break genera erroes. */
+     "experimentalDecorators": true,
+     "emitDecoratorMetadata": true,
+     "types": ["reflec-metadata", "node"]
   },
   "include": [
       "src/**/*"

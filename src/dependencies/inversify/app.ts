@@ -1,0 +1,5 @@
+import { IDepC } from './idepc';
+import container from './inversify.config';
+import { TYPES } from './types';
+let c = container.get<IDepC>(TYPES.IDepC);
+c.doC();
